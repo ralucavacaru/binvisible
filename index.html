@@ -1,0 +1,142 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="img/logo.png">
+			<br>
+			<span class="subtext">A playable comic</span>
+		</div>
+	</div>
+	<div class="progress">
+		<div class="health-tag">Mental Health</div>
+		<div class="health">
+			<div id="health-bar">50%</div>
+		</div>
+	</div>
+	<div id="scene1" class="scene">
+		<div class="frame">
+			<img src="scene1/1.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/2.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/3.png">
+		</div>
+		<div class="frame options-frame">
+			<h1>What would you answer?</h1>
+			<div class="options">
+				<div class="option" id="option3a">"Nothing, really!"</div>
+				<div class="option" id="option3b">"I kind of have a crush on someone"</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="scene4a" class="scene initially-hidden">
+		<div class="frame">
+			<img src="scene1/4a.png">
+		</div>
+		<div class="frame options-frame">
+			<h1 class="centered">When you deny your feelings, your mental health gets affected. You can go back and choose a different answer, or keep on playing.</h1>
+		</div>
+		<div class="frame">
+			<img src="scene1/5A.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/7A.png">
+		</div>
+		<div class="frame long-options-frame">
+			<h1>What would you answer?</h1>
+			<div class="options">
+				<div class="option" id="option7aa">"Just some guy..."</div>
+				<div class="option" id="option7ab">"Actually, it's a girl."</div>
+			</div>
+		</div>
+	</div>
+	<div id="scene4b" class="scene initially-hidden">
+		<div class="frame">
+			<img src="scene1/4b.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/7A.png">
+		</div>
+		<div class="frame long-options-frame">
+			<h1>What would you answer?</h1>
+			<div class="options">
+				<div class="option" id="option7ba">"Just some guy..."</div>
+				<div class="option" id="option7bb">"Actually, it's a girl."</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="scene7aa" class="scene initially-hidden">
+		<div class="frame">
+			<img src="scene1/7aa.png">
+		</div>
+		<div class="frame options-frame">
+			<h1 class="centered">END</h1>
+			<span class="explanation">Your mental health bar is empty. Try going back and making different choices.</span>
+		</div>
+	</div>
+	<div id="scene7ab" class="scene initially-hidden">
+		<div class="frame">
+			<img src="scene1/7ab.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/8ab.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/9ab.png">
+		</div>
+		<div class="frame options-frame">
+			<h1>What would you answer?</h1>
+			<div class="options">
+				<div class="option" id="option10aba">"Yeah, you're right, maybe it's just a phase."</div>
+				<div class="option" id="option10abb">"I don't think so, it doesn't feel like just a phase."</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="scene10aba" class="scene initially-hidden">
+		<div class="frame">
+			<img src="scene1/10aba.png">
+		</div>
+		<div class="frame options-frame">
+			<h1 class="centered">END</h1>
+			<span class="explanation">Your mental health bar is empty. Try going back and making different choices.</span>
+		</div>
+	</div>
+	<div id="scene10abb" class="scene initially-hidden">
+		<div class="frame">
+			<img src="scene1/10abb.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/11abb.png">
+		</div>
+		<div class="frame">
+			<img src="scene1/12abb.png">
+		</div>
+		<div class="frame options-frame">
+			<h1 class="centered">Good job!</h1>
+			<span class="explanation">You just came out to your friend, and she also became an ally.</span>
+			<div class="options">
+				<div class="option" id="option13abb">Thank her</div>
+			</div>
+		</div>
+	</div>
+	<div id="scene13abb" class="scene initially-hidden">
+		<div class="frame">
+			<img src="scene1/13abb.png">
+		</div>
+		<div class="frame options-frame">
+			<h1 class="centered">You won!</h1>
+			<span class="explanation">Your mental health bar is full.</span>
+		</div>
+	</div>
+</body>

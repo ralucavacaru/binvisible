@@ -1,0 +1,123 @@
+@font-face {
+    font-family: BackIssuesBB;
+    src: url("fonts/BackIssuesBB_reg.otf") format("opentype");
+}
+
+h1 {
+	font-family: BackIssuesBB;
+	font-size: 24px;
+}
+.explanation {
+	font-family: BackIssuesBB;
+	font-size: 18px;
+}
+
+.header {
+	text-align: center;
+	padding: 30px;
+}
+.logo {
+	display: inline-block;
+}
+.logo img {
+	width: 300px;
+}
+.subtext {
+	font-family: BackIssuesBB;
+	font-size: 16px;
+}
+
+.health-tag {
+	font-family: BackIssuesBB;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.health {
+	position: relative;
+	height: 100%;
+	background-color: #ddd;
+	width: 50px;
+	display: inline-block;
+}
+#health-bar {
+	font-family: BackIssuesBB;
+	font-size: 14px;
+	position: absolute;
+	display: inline;
+	height: 50%;
+	width: 50px;
+	background-color: #e9b14b;
+	line-height: 30px;
+	color: white;
+	bottom: 0;
+	left: 0;
+}
+.progress {
+	text-align: center;
+	height: 200px;
+	position: fixed;
+	right: 40px;
+	width: 100px;
+	vertical-align: center;
+}
+
+.scene {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	/*max-width: 1100px;*/
+	flex-wrap: wrap;
+}
+.scene:first-of-type {
+	margin-top: 100px;
+}
+
+.frame {
+	border: 2px solid black;
+	box-sizing: border-box;
+	margin: 5px;
+	width: 500px;
+}
+.frame img {
+	position: relative;
+	width: 100%;
+}
+.options-frame {
+	padding-top: 20px;
+	text-align: center;
+}
+.options {
+	font-family: BackIssuesBB;
+	margin-top: 30px;
+	text-align: center;
+}
+.option {
+	display: inline-block;
+	width: 80%;
+	margin: 10px;
+	padding: 20px 10px;
+	border: 2px solid black;
+}
+.option:hover {
+	background-color: black;
+	color: white;
+}
+.option.active {
+	background-color: #825389;
+	border-color: #825389;
+	color: white;
+}
+.long-options-frame {
+	width: 1010px;
+	padding-top: 20px;
+	text-align: center;
+}
+.initially-hidden {
+	display: none;
+}
+.flex {
+	display: flex !important;
+}
+.centered {
+	padding-top: 100px;
+}
